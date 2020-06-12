@@ -74,7 +74,6 @@ public class CustomActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -111,13 +110,4 @@ public class CustomActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-//    public void showResult(int position) {
-//        String result = "Товары в корзине:";
-//        Product product = prodAdapter.getItem(position);
-////        for (Product p : prodAdapter.getItem(position)) {
-////            if (p.isChecked())
-////                result += "\n" + p.getTittle();
-////        }
-//        Toast.makeText(this, result, Toast.LENGTH_LONG).show();
-//    }
 }
